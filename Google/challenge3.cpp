@@ -21,9 +21,9 @@ that converts between nodes and memory addresses.
 #include <string>
 #include <sstream>
 
-struct {
+typedef struct Node {
 	int val ;
-	*Node npx ;
+	Node* npx ;
 }Node;
 
 Node Add(Node* list, int element) {
