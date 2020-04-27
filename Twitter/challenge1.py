@@ -25,5 +25,6 @@ if __name__ == "__main__":
 
     inp = input()
     dictionary = ["madjid","madre","mecal","nada","badido18"]
-    print(autocomplete(inp,dictionary))    
+    print(autocomplete(inp,dictionary))
+    
     pass
